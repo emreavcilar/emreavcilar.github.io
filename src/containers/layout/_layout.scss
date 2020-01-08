@@ -1,0 +1,140 @@
+:root {
+  --gray: #cbcfd3;
+  --darkgray: #555555;
+  --darkgray2: #888888;
+  --darkgray3: #bbbbbb;
+  --white: white;
+  --black: #1a1a1a;
+  --lightwhite: whitesmoke;
+  --lightblue: #009dd3;
+  --peach: #ff9469;
+
+  // --transition-delay: 0.3s;
+  // --transition-delay-step: 0.3s;
+  // --skills-width: 120px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-lightblue {
+  color: var(--lightblue);
+}
+
+.text-peach {
+  color: var(--peach);
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+.bg-lightwhite {
+  background: var(--lightwhite);
+}
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+body {
+  background: transparent;
+  margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+span,
+p,
+div,
+ul,
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.page-container {
+  background: #fff;
+  padding: 5em;
+}
